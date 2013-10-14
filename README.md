@@ -1,5 +1,4 @@
-# Favis CI [![Build
-Status](https://travis-ci.org/jaunesarmiento/favis-ci.png)](https://travis-ci.org/jaunesarmiento/favis-ci)
+# Favis CI [![Build Status](https://travis-ci.org/jaunesarmiento/favis-ci.png)](https://travis-ci.org/jaunesarmiento/favis-ci)
 
 Continuous Integration in your Favicon.
 
