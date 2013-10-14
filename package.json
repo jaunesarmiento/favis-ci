@@ -1,0 +1,33 @@
+{
+  "name": "favis-ci",
+  "version": "0.0.0",
+  "description": "Continuous Integration in your Favicon",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaunesarmiento/favis-ci"
+  },
+  "keywords": [
+    "travis-ci",
+    "travis",
+    "favicon",
+    "continuous",
+    "integration",
+    "testing"
+  ],
+  "author": "Jaune Sarmiento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaunesarmiento/favis-ci/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "jsdom": "~0.8.6",
+    "sinon": "~1.7.3",
+    "jquery": "~1.8.3",
+    "canvas": "~1.1.1"
+  }
+}
