@@ -7,7 +7,7 @@ module.exports = function (done) {
 
   var jsdom = require('jsdom').jsdom,
       fs = require('fs'),
-      jquery = require('jQuery');
+      jquery = require('jquery');
       favis = fs.readFileSync('./favis-ci.js'),
 
       // Using a dummy favicon with no badge
