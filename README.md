@@ -75,8 +75,8 @@ came from. Also, Favis-CI based some of its code-base from it. Thanks a lot!
 
 # License
 
-Favis CI is licensed under the [MIT License]. Copyright &copy; Jaune Sarmiento
-2013.
+Favis CI is licensed under the [MIT License]. Copyright &copy; and proudly
+crafted by Jaune Sarmiento, 2013.
 
 
 [Travis CI]: https://travis-ci.org/
