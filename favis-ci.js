@@ -248,8 +248,6 @@
 
       this._context.closePath();
 
-      console.log('Canvas:');
-      console.log(this._canvas);
       // Set this as the new favicon
       this.setIcon(this._canvas);
     },
@@ -324,7 +322,7 @@
 
     /**
      * Parses the build status and returns true or false whether the latest
-     * build from Travis CI is passing.
+     * build from Travis CI is failing.
      *
      * @param {Array} builds
      * @return {Boolean}
@@ -336,12 +334,12 @@
       this._builds = JSON.parse(builds);
 
       if (this._builds.length > 0) {
-        this._latestBuild = builds[0];
+        this._latestBuild = this._builds[0];
 
-        if (this._latestBuild.result === 0) return true;
+        if (this._latestBuild.result === 0) return false;
       }
 
-      return false;
+      return true;
     }
 
   };
