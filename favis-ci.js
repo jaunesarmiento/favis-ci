@@ -335,7 +335,7 @@
     parseBuildStatus: function (builds) {
       this._builds = JSON.parse(builds);
 
-      if (builds.length > 0) {
+      if (this._builds.length > 0) {
         this._latestBuild = builds[0];
 
         if (this._latestBuild.result === 0) return true;
@@ -343,7 +343,6 @@
 
       return false;
     }
-
 
   };
 
