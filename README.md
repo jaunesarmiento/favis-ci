@@ -87,3 +87,7 @@ crafted by Jaune Sarmiento, 2013.
 [node-canvas]: https://github.com/LearnBoost/node-canvas/
 [jsdom]: https://github.com/tmpvar/jsdom
 [MIT License]: http://opensource.org/licenses/MIT
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jaunesarmiento/favis-ci/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
